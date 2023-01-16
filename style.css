@@ -141,13 +141,62 @@
 }
 
 #quote-name{
-    font-size: 36px;
+    font-size: 26px;
     color: #1f2937;
     font-weight: 800;
-    margin-left: 40vw;
+    margin-left: 650px;
 }
 .quote{
     color: #1f2937;
     width:auto;
     height: auto;
+}
+.action{
+    margin-top: 75px;
+    width: auto;
+    height: auto;
+}
+.action-box{
+    background-color: #3882f6;
+    color: #fff;
+    width: 64vw;
+    border: 0px;
+    border-radius: 8px;
+    margin: 8vh auto;
+    padding: 45px 80px;
+    height: 50px;
+}
+.text{
+    width:600px;
+    float: left;
+}
+
+#action-head{
+    font-size: 24px;
+    height: auto;
+    width: 300px;
+}
+
+.button{
+    float: right;
+}
+
+.action-btn{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #3882f6;
+    font-size: 18px;
+    color: #fff;
+}
+
+#action-btn:hover{
+    background-color: #1047a0;
+}
+
+#action-text{
+    font-size: 18px;
 }
