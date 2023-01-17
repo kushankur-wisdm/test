@@ -259,3 +259,23 @@ h2.info-heading {
     justify-content: right;
     padding-right: 10px;
 }
+
+@media screen and (max-width: 375px)
+{
+    nav.nav {
+        margin-left: 50px;
+        margin-right: 0;
+        flex-direction: column;
+    }
+    
+    .left {
+        width: auto;
+        padding-bottom: 30px;
+    }
+    
+    .head-container {
+        margin-left: 50px;
+        flex-direction: column;
+        width: 100%;
+    }
+}
