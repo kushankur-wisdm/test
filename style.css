@@ -21,13 +21,15 @@
     display: flex;
     width: auto;
     height: auto;
-    margin: 20px 150px 75px 200px;
+    margin: 20px 200px 75px 200px;
     padding-bottom: 100px;
 }
 
 .nav{
     width: auto;
     height: auto;
+    margin: 10px 200px 0 200px;
+    display: flex;
 }
 
 .nav-links{
@@ -104,7 +106,7 @@ a#link2 {
 }
 
 section.info {
-    margin:0 10em 10em;
+    margin:0 15em 5em;
 }
 
 .info-content {
@@ -129,26 +131,36 @@ section.info {
     margin-top: 10px;
 }
 
-#quote-box{
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
     background-color: #e5e7eb;
-    padding: 100px 200px 50px 200px;
+    margin: 0px 200px;
 }
 
-#quote-box span i{
-    font-size: 36px;
+section.quote {
+    background-color: #e5e7eb;
+    height: auto;
+    width: auto;
 }
 
-#quote-name{
+span.quotation {
+    padding-top: 100px;
+    text-align: left;
+    font-size: 26px;
+    color: #1f2937;
+    font-weight: 100;
+    font-style: italic;
+}
+
+span.author {
+    text-align: right;
     font-size: 26px;
     color: #1f2937;
     font-weight: 800;
-    margin-left: 650px;
-}
-
-.quote{
-    color: #1f2937;
-    width:auto;
-    height: auto;
+    padding-bottom: 80px;
 }
 
 .action{
@@ -234,10 +246,6 @@ section.info {
 h2.info-heading {
     text-align: center;
     padding: 0 0 20px 0;
-}
-nav.nav {
-    margin: 10px 150px 0 200px;
-    display: flex;
 }
 
 .left {
