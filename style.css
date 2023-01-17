@@ -36,6 +36,7 @@
 }
 a#link1 {
     padding-right: 20px;
+    padding-left: 10px;
 }
 
 a#link2 {
@@ -102,8 +103,7 @@ a#link2 {
 }
 
 section.info {
-    margin: 0 10em;
-    padding: 2em 0;
+    margin:0 10em 10em;
 }
 
 .info-content {
@@ -163,6 +163,7 @@ section.info {
     border: 0px;
     border-radius: 8px;
     margin: 8vh auto;
+    margin-bottom: 75px;
     padding: 45px 80px;
     height: 50px;
 }
