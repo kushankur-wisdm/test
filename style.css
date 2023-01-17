@@ -18,9 +18,10 @@
 }
 
 .head-container{
+    display: flex;
     width: auto;
     height: auto;
-    margin: 20px 150px 100px 200px;
+    margin: 20px 150px 75px 200px;
     padding-bottom: 100px;
 }
 
@@ -210,9 +211,6 @@ section.info {
     justify-content: center;
     height: 150px;
 }
-.head-container {
-    display: flex;
-}
 
 .head-left {
     width: 50%;
@@ -235,7 +233,7 @@ section.info {
 
 h2.info-heading {
     text-align: center;
-    padding: 20px 0;
+    padding: 0 0 20px 0;
 }
 nav.nav {
     margin: 10px 150px 0 200px;
